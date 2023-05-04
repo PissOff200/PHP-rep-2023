@@ -27,7 +27,7 @@ $numText = "25"; //Esto es un texto
 // Integer o Entero
 $numero = 13;
 
-/ Double o Decimal
+// Double o Decimal
 $decimal = 0.16;
 
 // Boleano
