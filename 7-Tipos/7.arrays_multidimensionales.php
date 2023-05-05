@@ -22,4 +22,6 @@ echo $amigos[0][2] . '<br />';
 echo $amigos[1][2] . '<br />';
 echo $amigos[2][2] . '<br />';
 
+
+echo " Los tres amigos son {$amigos[0][0]} ,{$amigos[1][0]}, y {$amigos[2][0]}, y tienen {$amigos[0][1]} , {$amigos[1][1]} y {$amigos[2][1]} anos respectivamente "
 ?>

@@ -4,8 +4,9 @@
 
 $profesor = array('nombre' => 'Marc', 'telefono' => 665533, 'edad' => 35, 'apellido' => 'Esteve', 'ciudad' => 'Castelldefels');
 
-# Igual que en los arrays indexados, en los asosiativos también podemos modificar sus valores simplemente accediendo a ellos.
-$profesor['apellido'] = 'Esteve García';
+echo " El profesor se llama {$profesor['nombre']} " . $profesor['apellido'] . ", su edad es {$profesor['edad']},su telefono es {$profesor['telefono']} e imparte clases en {$profesor['ciudad']} <br>";
+# Igual que en los arrays indexados, en los asosiativos tambien podemos modificar sus valores simplemente accediendo a ellos.
+$profesor['apellido'] = 'Esteve Garcia';
 
 echo 'El nombre del profesor es ' . $profesor['nombre'] . ' ' . $profesor['apellido'] . ', su edad es ' . $profesor['edad'] . ', su teléfono es el ' . $profesor['telefono'] . ' y imparte clases en ' . $profesor['ciudad'] . '. <br>';
 
