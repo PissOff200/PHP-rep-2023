@@ -19,20 +19,20 @@
         public function getNombre() {
             return $this->nombre;
         }
-
+    
         public function setNombre($nombre) {
             $this->nombre = $nombre;
         }
-
+    
         public function getMateria() {
             return $this->materia;
         }
-
+    
         public function setMateria($materia) {
             $this->materia = $materia;
         }
     }
-
+    
     $profesor1 = new Profesor();//Creamos OBJETO
     //echo gettype($profesor1); //Muestra tipo "object"
     echo 'El nombre del profesor es ' . $profesor1->nombre . ' ' . $profesor1->apellido . " con una altura de " . $profesor1->altura . 'm' . " que imparte la asignatura de " . $profesor1->materia . "<br>";
