@@ -13,4 +13,17 @@ $texto = 'Adeu Andreu';
 // $nuevoTexto = str_replace("Andreu", "siau", $texto); //Sustituye textos
 // echo $nuevoTexto;
 
+//echo substr($texto,5,11);
+
+$texto='sometemos';
+$textoRev = strrev($texto);
+
+if ($texto==$textoRev) {
+    echo 'Es un palidromo';
+} else {
+    'No Es un palidromo';
+}
+
+
 ?>
+
