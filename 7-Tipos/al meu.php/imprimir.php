@@ -43,6 +43,8 @@
             foreach ($semana as $dia) {
                 echo "<li>" . $dia . "</li>";
             }
+
+            //si tenemos algun atributo private or protected we need to use setter and getters. 
         ?> 
     </ul>
     <?php
@@ -58,3 +60,4 @@
     ?>
 </body>
 </html>
+
