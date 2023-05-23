@@ -15,14 +15,10 @@ $texto = 'Adeu Andreu';
 
 //echo substr($texto,5,11);
 
-$texto='sometemos';
-$textoRev = strrev($texto);
 
-if ($texto==$textoRev) {
-    echo 'Es un palidromo';
-} else {
-    'No Es un palidromo';
-}
+
+
+
 
 
 ?>
