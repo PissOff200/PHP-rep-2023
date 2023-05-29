@@ -3,10 +3,10 @@
 $errores = '';
 $enviado = '';
 
-if (isset($_POST['submit'])) {
-	$nombre = $_POST['nombre'];
-	$correo = $_POST['correo'];
-	$mensaje = $_POST['mensaje'];
+if (isset($_GET['submit'])) {
+	$nombre = $_GET['nombre'];
+	$correo = $_GET['correo'];
+	$mensaje = $_GET['mensaje'];
 
 	if (!empty($nombre)) {
 		$nombre = trim($nombre);
