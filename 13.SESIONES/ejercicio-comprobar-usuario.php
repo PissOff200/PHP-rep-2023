@@ -19,7 +19,7 @@ if (isset($_SESSION['nombreUsuario']) && isset($_POST['comprobarUsuario'])) {
 <html>
 <head>
     <title>Comprobar Usuario</title>
-    <link rel="stylesheet" href="estilo-sesion.css">
+    <link rel="stylesheet" href="ejercicio-sesion.css">
 </head>
 <body>
     <h1>Comprobar Usuario</h1>
@@ -28,6 +28,9 @@ if (isset($_SESSION['nombreUsuario']) && isset($_POST['comprobarUsuario'])) {
         <input type="text" name="comprobarUsuario" required>
         <button type="submit">Iniciar sesión</button>
     </form>
-    <a href="ejercicio-formulario-usuario.php"><button>Volver</button></a>
+    <form method="POST" action="ejercicio-cierra-sesion.php">
+        <button type="submit">Cerrar sesión</button>
+    </form>
+    <a href="ejercicio-formulario-usuario.php"><button>Registrar</button></a>
 </body>
 </html>
