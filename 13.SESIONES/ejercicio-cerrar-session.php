@@ -7,7 +7,7 @@ if (isset($_SESSION['nombreUsuario']) && isset($_POST['comprobarUsuario'])) {
         echo "¡Bienvenido, $comprobarUsuario !";
     } else {
         echo "Usuario incorrecto.";
-    } else{
+    } elseif{
     echo "Por favor, inicia sesión";
 }
 else {
